@@ -3,7 +3,165 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilos.css" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <nav>
+        <img src="./imagenes/logo2.png" alt="logo" class="logo" />
+
+        <ul>
+          <li>
+            <a href="#">Inicio</a>
+          </li>
+          <li>
+            <a href="#">Productos</a>
+          </li>
+          <li>
+            <a href="#">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <input type="checkbox" id="toggle-form" class="toggle-form" />
+        <label for="toggle-form" class="button">Agregar Producto</label>
+
+        <div class="form-container">
+          <form>
+            <label for="foto">Imagen:</label>
+            <input type="url" id="foto" name="email" required />
+            <label for="producto">Producto:</label>
+            <input type="text" id="producto" name="name" required />
+            <label for="descripcio">Descripcio:</label>
+            <input type="text" id="descripcio" name="name" required />
+            <label for="precio">Precio:</label>
+            <input type="text" id="precio" name="name" required />
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
+      </div>
+      <section>
+        <div class="contenedor">
+          <div class="card-contenedor">
+            <img
+              src="./imagenes/anilloCorazon.webp"
+              alt="anillo"
+              class="card-img"
+            />
+            <div class="card-contenedor-tex">
+              <h2>Anillo Corazón</h2>
+              <p class="card-descrpcion">ANILLO CORAZÓN EN PLATA, CÚBIC AZUL</p>
+              <span>$86.400</span>
+            </div>
+          </div>
+          <div class="card-contenedor">
+            <img src="./imagenes/pulsera.webp" alt="pulsera" class="card-img" />
+            <div class="card-contenedor-tex">
+              <h2>Pulcera Perlas</h2>
+              <p class="card-descrpcion">
+                PULSERA CON PERLAS DE RÍO, BOLITAS Y DETALLES EN PLATA.
+              </p>
+              <span>$28.400</span>
+            </div>
+          </div>
+          <div class="card-contenedor">
+            <img
+              src="./imagenes/dijeCorazon.webp"
+              alt="dije"
+              class="card-img"
+            />
+            <div class="card-contenedor-tex">
+              <h2>Dije Corazón</h2>
+              <p class="card-descrpcion">DIJE CORAZÓN EN PLATA Y CÚBIC</p>
+              <span>$21.560</span>
+            </div>
+          </div>
+          <div class="card-contenedor">
+            <img
+              src="./imagenes/anilloColores.webp"
+              alt="anillo"
+              class="card-img"
+            />
+            <div class="card-contenedor-tex">
+              <h2>Anillo Colores</h2>
+              <p class="card-descrpcion">
+                ANILLO EN PLATA Y ORO CON CUBIC BAGUETTE COLORES
+              </p>
+              <span>$68.630</span>
+            </div>
+          </div>
+          <div class="card-contenedor">
+            <img src="./imagenes/arosFlor.webp" alt="aros" class="card-img" />
+            <div class="card-contenedor-tex">
+              <h2>Aros Flor</h2>
+              <p class="card-descrpcion">
+                AROS FLOR ABRIDORES CON PERLITAS EN PLATA
+              </p>
+              <span>$7.450</span>
+            </div>
+          </div>
+          <div class="card-contenedor">
+            <img
+              src="./imagenes//esclava.webp"
+              alt="pulcera"
+              class="card-img"
+            />
+            <div class="card-contenedor-tex">
+              <h2>Esclava de Plata</h2>
+              <p class="card-descrpcion">ESCLAVA ABIERTA CON BOLITAS</p>
+              <span>$72.000</span>
+            </div>
+          </div>
+          <div class="card-contenedor">
+            <img
+              src="./imagenes/argollasBolitas.webp"
+              alt="aros"
+              class="card-img"
+            />
+            <div class="card-contenedor-tex">
+              <h2>Argollas Bolitas</h2>
+              <p class="card-descrpcion">
+                ARGOLLITAS BOLITAS EN PLATA, 1,2 CM.
+              </p>
+              <span>$24.000</span>
+            </div>
+          </div>
+          <div class="card-contenedor">
+            <img
+              src="./imagenes/pulceraNegra.webp"
+              alt="pulcera"
+              class="card-img"
+            />
+            <div class="card-contenedor-tex">
+              <h2>Pulsera cristales Negros</h2>
+              <p class="card-descrpcion">
+                PULSERA EN PLATA Y CRISTALITOS, 19 CM.
+              </p>
+              <span>$29.000</span>
+            </div>
+          </div>
+          <div class="card-contenedor">
+            <img
+              src="./imagenes/anilloMoño.webp"
+              alt="anillo"
+              class="card-img"
+            />
+            <div class="card-contenedor-tex">
+              <h2>Anillo Moño</h2>
+              <p class="card-descrpcion">
+                ANILLO FINO EN PLATA Y ORO CON 2 CÚBIC BLANCOS
+              </p>
+              <span>$19.820</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright Diamond - 2024. Todos los derechos reservados.</p>
+    </footer>
+  </body>
 </html>
